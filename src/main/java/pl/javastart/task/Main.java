@@ -4,11 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
         PalindromeService palindromeService = new PalindromeService();
-
-        int[] array = new int[]{1, 2, 3};
-
+        int[] array = new int[]{1, 2, 3, 4, 3, 2, 1};
         boolean isPalindrome = palindromeService.isPalindrome(array);
-
         System.out.println(isPalindrome);
     }
 }
